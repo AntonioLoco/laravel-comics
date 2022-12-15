@@ -3,8 +3,8 @@
 return [
     'links' => [
         [
-            'name' => 'CHARACTERS',
-            'href' => '/characters',
+            'name' => 'HOME',
+            'href' => '/home',
 
         ],
         [

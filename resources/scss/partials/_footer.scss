@@ -48,3 +48,37 @@
         }
     }
 }
+
+.footer-social{
+    background-color: #303030;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2em 0;
+        .button{
+            button{
+                padding: 1em;
+                color: #fff;
+                border: 3px solid #0282f9;
+                background-color: #282828;
+            }
+        }
+        .social-links{
+            display: flex;
+            align-items: center;
+            h3{
+                color: #0282f9;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+                margin: 0 1em;
+                list-style: none;
+                li{
+                    margin: 0 .5em;
+                }
+            }
+        }
+    }
+}

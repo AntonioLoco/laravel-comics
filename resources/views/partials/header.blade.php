@@ -1,7 +1,7 @@
 <header>
     <div class="header-top">
         <div class="container">
-            <p>DC POWER VISA</p>
+            <p class="mx-2">DC POWER VISA</p>
         </div>
     </div>
     <div class="header-bottom">
@@ -10,7 +10,7 @@
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="Dc Logo">
             </div>
             <nav>
-                <ul class="d-flex">
+                <ul class="d-flex justify-content-end">
                     @foreach ($links as $link)
                         <li><a href="{{ $link['href'] }}">{{ $link['name'] }}</a></li>
                     @endforeach

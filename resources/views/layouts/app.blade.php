@@ -17,6 +17,7 @@
     <main>
         {{-- Preserviamo il posto dove andrà inserito il contenuto delle varie pagine --}}
         @yield('content')
+        @include('partials.iconsBanner')
     </main>
 
     @include('partials.footer')
