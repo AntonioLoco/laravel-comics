@@ -1,0 +1,50 @@
+.footer-links{
+    background-image: url("../img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+
+        .navigation-links{
+            width: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 2em 0;  
+
+            ul{
+                width: calc(100% / 4 - 1em);
+                margin: 0 1em;
+
+                h3{
+                    font-size: 1rem;
+                    color: #fff;
+                }
+                li{
+                        margin: .5em 0;
+                        a{
+                            text-decoration: none;
+                            font-size: .8rem;
+                            color: #999999;
+
+                            &:hover{
+                                color: #0282f9;
+                            }
+                        }
+                }
+            }
+        }
+
+        .logo{
+            width: 60%;
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
