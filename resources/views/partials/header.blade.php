@@ -12,7 +12,9 @@
             <nav>
                 <ul class="d-flex justify-content-end">
                     @foreach ($links as $link)
-                        <li><a href="{{ $link['href'] }}">{{ $link['name'] }}</a></li>
+                        <li><a class="{{ Route::currentRouteName() === $link['href'] ? 'active' : '' }}"
+                                href="{{ $link['href'] != '' ? route($link['href']) : '' }}">{{ $link['name'] }}</a>
+                        </li>
                     @endforeach
                 </ul>
             </nav>

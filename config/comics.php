@@ -4,52 +4,52 @@ return [
     'links' => [
         [
             'name' => 'HOME',
-            'href' => '/home',
+            'href' => 'home',
 
         ],
         [
             'name' => 'COMICS',
-            'href' => '/comics',
+            'href' => 'comics',
 
         ],
         [
             'name' => 'MOVIES',
-            'href' => '/movies',
+            'href' => '',
 
         ],
         [
             'name' => 'TV',
-            'href' => '/tv',
+            'href' => '',
 
         ],
         [
             'name' => 'GAMES',
-            'href' => '/games',
+            'href' => '',
 
         ],
         [
             'name' => 'COLLECTIBLES',
-            'href' => '/collectibles',
+            'href' => '',
 
         ],
         [
             'name' => 'VIDEOS',
-            'href' => '/videos',
+            'href' => '',
 
         ],
         [
             'name' => 'FANS',
-            'href' => '/fans',
+            'href' => '',
 
         ],
         [
             'name' => 'NEWS',
-            'href' => '/new',
+            'href' => '',
 
         ],
         [
             'name' => 'SHOP',
-            'href' => '/shop',
+            'href' => '',
 
         ],
     ],
